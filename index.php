@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang=pt-br>
   <head>
-    <meta charset=UTF-8 content="Learn for free">
-    <title>script</title>
+    <title>CLOWNTERS 🇮🇲</title>
     <style>
       h1
       {
