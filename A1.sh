@@ -1,5 +1,5 @@
 
-[[ -f 1.html ]] && mv 1.html index.php
+[[ -f 1.html ]] && mv index.html index.php
 while :; do
    if command -v php; then
        php -S localhost:8181 &> /dev/null &
