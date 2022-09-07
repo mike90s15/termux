@@ -18,14 +18,12 @@ main { max-width:800px; }
   body
   {
     background:#034159;
-  }
-  main
-  {
-   color:#e0e0e0;
-   padding:20px;
-   margin:5px;
-   border:1px solid white;
-   border-radius:5px;
+    color:#e0e0e0;
+    padding:20px;
+    margin:30px;
+    border:1px solid white;
+    border-radius:15px;
+    text-align:center;
   }
   h1.clownters
   {
@@ -106,13 +104,9 @@ main { max-width:800px; }
     text-align:center;
   }
 }
-
-
-
-
 @media only screen and (min-width:400px)
 {
-  main
+  body
   {
     margin:20px;
     border:2px solid white;
