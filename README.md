@@ -14,7 +14,7 @@
 [DOWNLOAD DO TERMUX]()
 
 ### • 3.0 Comandos do termux
-Os comandos pode ser divididos em dois grupos builtin e utilitários, Comandos builtin é integrados que são exclusivos ou foram estendidos no Shell e utilitário não vem inclementado no Shell.
+> Os comandos pode ser divididos em dois grupos builtin e utilitários, Comandos builtin é integrados que são exclusivos ou foram estendidos no Shell e utilitário não vem inclementado no Shell.
 
 #### • 3.1 Utilitários
 Veja alguns dos utilitários mais usados no termux
@@ -37,7 +37,7 @@ Os comandos builtin são bem mais rápido que os utilitários porque ele ja est�
 São builtin, para ver todos os comandos builtin basta apenas digital help no terminal.
 
 ### • 3.3 Como saber se o comando é builtin
-Para saber se o comando é interno ou externo é bem simples todos os comandos builtin possui um breve manual de ajuda, para vermos se o comando possuí esse manual é necessário digitar help [ COMANDO ], se returna o manual o comando é builtin se não ele é um utilitário.
+> Para saber se o comando é interno ou externo é bem simples todos os comandos builtin possui um breve manual de ajuda, para vermos se o comando possuí esse manual é necessário digitar help [ COMANDO ], se returna o manual o comando é builtin se não ele é um utilitário.
 
 ### • 4.0 Como usar os Comandos
 >_ exit _<
@@ -84,5 +84,7 @@ Existem muitos editores de texto diferentes no Termux, e a comunidade é bastant
 Isso é básico que você precisa saber para usar o Termux, mas o Termux é ferramenta bem completa que permitirá a você fazer muitas coisas complexas.
 
 [WhatsApp]()
+
 [Telegram]()
+
 [YouTube]()
