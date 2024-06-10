@@ -1,164 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head> 
+<html lang="pt-BR">
+<head>
   <meta charset="UTF-8">
-  <title>Clownters</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="icon" href="https://raw.githubusercontent.com/mike90s15/cloud/main/Clownters/Imagens/termux.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termux</title>
+  <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script src="script.js"></script>
-  <header>
-  <a class="link-clownters" target="_blank" href="https://mike90s15.github.io/Clownters">    
-  <h1 class="clownters">Organização Clownters 🇮🇲</h1>
-  </a>
-  </header>
-  <hgroup>
-  <h2>MANUAL TERMUX<h2>
-  <h3>Curso de termux<h3>
-  <img class="imgg" src="https://raw.githubusercontent.com/mike90s15/cloud/main/Clownters/Imagens/termux.png">
-  </hgroup>
-  <h3>• 1.0 O que é o termux</h3>
-  <p>
-Termux é um emulado de terminal que garante acesso ao shell do Android o sh, sem requerer acesso root. O app permite acessar o shell sh e bash para executar comandos Linux e Unix. Além disso, oferece um repositório de programas e pacotes que podem ser instalados com o comando apt, apt-get, pkg, dpkg e outros, tal como no Debian ou Ubuntu.    				
-  </p>
-  <h4>• 1.1 O que é um Shell</h4>
-  <p>
-Shell é um programa especial disponibilizado ao usuário ou algum programa para que este possa se comunicar diretamente com o sistema operacional. O Shell aceita comandos simples e de fácil entendimento para o usuário e os interpreta para que o Kernel possa executar as ações desejadas.
-  </p>
-  <h3>• 2.0 Como fazer o download do termux</h3>
-  <p>
-O download do termux pode ser realizado pelo Fdroid e a play store, porém a versão da play store está desatualizada.<br>
-  </p>
-  <div class="center">
-    <a class="termux" href="https://f-droid.org/repo/com.termux_118.apk" target="_blank"> &gt;&gt;&gt; DOWNLOAD DO TERMUX &lt;&lt;&lt; </a><br/>  
-    <img class="log" src="https://raw.githubusercontent.com/mike90s15/cloud/main/Clownters/Imagens/termux_banner.png"/>
+  <div class="container">
+    <div class="section">
+      <div class="text-container">
+        <h1>Guia Básica Termux: Tutorial Simplificado para Explorar o Terminal</h1>
+        <p>Aprenda a navegar entre diretórios, gerenciar pacotes, criar scripts e muito mais! Adquira conhecimento básico para usar o aplicativo sem dificuldades e encontrar soluções para possíveis problemas.</p>
+        <a href="https://pay.hotmart.com/O93634466Q" class="button">Comprar</a>
+      </div>
+      <div class="image-container">
+        <img class="produto" src="img/capa.png" alt="Imagem do Produto">
+      </div>
+    </div>
+    <div class="section">
+      <div class="text-container">
+        <h1>Sobre o Conteúdo</h1>
+        <p>Com a Guia Básica Termux, aprenda a utilizar o terminal Termux de forma fácil e prática. Explore suas funcionalidades e adquira uma base sólida para aproveitar ao máximo o aplicativo. Adquira o PDF agora e torne sua experiência com o Termux mais agradável e produtiva.</p>
+      </div>
+      <div class="image-container">
+        <!-- edit iframe for real link -->
+        <iframe width="100%" height="290" src="https://www.youtube.com/embed/codigo-do-video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="section">
+      <div class="text-container">
+        <h2>CONHEÇA MELHOR QUEM CRIOU O CONTEÚDO</h2>
+        <h1>Mike Edwards</h1>
+        <p>Mike90s15 é um desenvolvedor e criador digital, apaixonado por compartilhar conhecimentos sobre programação e pentest. Com vasta experiência em HTML, CSS, C/C++, Go, Python, PHP e JavaScript, além de habilidades em Bash e Batch, ele está aqui para te guiar na jornada do aprendizado e da excelência técnica. Fluente em inglês e espanhol, ele oferece um ambiente colaborativo e prático para você evoluir na área de tecnologia. Junte-se a ele e transforme suas habilidades! Visite o Instagram para começar.</p>
+      </div>
+      <div class="image-container">
+        <img class="dev" src="img/dev.jpeg" alt="Imagem do Autor">
+      </div>
+    </div>
   </div>
-  <h3>• 3.0 Comandos do termux</h3>
-  <p>
-Os comandos pode ser divididos em dois grupos builtin e utilitários, Comandos builtin é integrados que são exclusivos ou foram estendidos no Shell e utilitário não vem inclementado no Shell.
-  </p>
-  <h4>• 3.1 Utilitários</h4>
-  <p>
-Veja alguns dos utilitários mais usados no termux
-  <br>
-  <i><b><br> 
-• ls</br>
-• cp</br>
-• mv</br>
-• clear</br>
-  </b></i>
-  <br>
-E qualquer outro pacote que não pertence ao shell por padrão serão utilitários.
-  </p>
-  <h4> • 3.2 builtin</h4>
-  <p>
-Os comandos builtin são bem mais rápido que os utilitários porque ele ja está acoplado no shell, os comandos
-  <br>
-  <i><b></br>
-  • cd</br>
-  • pwd</br>
-  • time</br>
-  • exit</br>
-  </b></i>
-  <br>
-São builtin, para ver todos os comandos builtin basta apenas digital <b>help</b> no terminal.
-  </p>
-  <h4>• 3.3 Como saber se o comando é builtin</h4> 
-  <p>
-Para saber se o comando é interno ou externo é bem simples todos os comandos builtin possui um breve manual de ajuda, para vermos se o comando possuí esse manual é necessário digitar help [ COMANDO ], se returna o manual o comando é builtin se não ele é um utilitário.
-  </p>           
-  <h3>• 4.0 Como usar os Comandos</h3>
-  <h4>&gt;_ exit _&lt;</h4>
-  <p> 
-Exit, tem a função de encerrar a sessão atual, o Termux só será fechado quando você executa uns dessas ações, “exit”, botão <b>CTRL d</b> ou na abra de notificação do seu smartphone e fechar
-  </p>
-  <div class="center">
-  <iframe src="https://www.youtube.com/embed/sbD2jRDgAd0">
-  </iframe>
-  </div>
-  <h4>&gt;_ ls _&lt;</h4>
-  <p>
-O comando “ls” permite que listemos os arquivos e diretórios no Termux. O comando com parâmetros a “ls -a” lista todos os conteúdos oculto do diretório atual.
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/i8jgGk08BRU">
-    </iframe>
-  </div>
-  <h4>&gt;_ cd _&lt;</h4>   
-  <p>
-O comando cd, um dos comandos mais importantes do Termux, que serve para se movimentar entre diretórios. basta passar o direito como parâmetro ele se movimentará para o caminho passado e para voltar ao diretório anterior. [cd ..]
-  </p>
-  <div class="center"> 
-    <iframe src="https://www.youtube.com/embed/tn7shy3LBYk">
-    </iframe>
-  </div>      
-  <h4>>_ mkdir _&lt;</h4>
-  <p>
-O comando “mkdir” permite ao usuário criar um diretório vazio ou vários diretórios, para criar um diretório ou mais com mkdir é simples você deverá passar o nome da pasta que quer criar.</br>
-[mkdir nome_do_diretório]
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/svsNEoK8HLs">
-    </iframe> 
-  </div>      
-  <h4>>_ touch e <b>“>” _&lt;</b></h4>
-  <p>
-O Comando “touch” é usado principalmente para criar arquivos vazios, além de alterar o registro de data e hora (timestamp) de arquivos ou pastas. A informação destes registros de arquivos consistem em três atributos: hora do acesso, hora da modificação e hora da alteração.
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/5eM38-RvLxM">
-    </iframe>
-  </div>
-  <h4>>_ cp _&lt;</h4>
-  <p>
-Você pode usar o “cp” para copiar estruturas de diretórios inteiras de um local para outro usando a opção -R para executar uma cópia recursiva e também fazer copia de arquivos. [cp arquivo local/]
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/cOi4aD8F4sA">
-    </iframe>
-  </div>     
-  <h4>>_ mv _&lt;</h4>
-  <p>
-O “mv” é um dos comandos mais populares no Termux. mv significa mover e é essencialmente usado para mover arquivos ou diretórios de um local para outro. A sintaxe é semelhante ao comando cp no Termux, no entanto, há uma diferença fundamental entre esses dois comandos.
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/YT3tJ-3dKfo">
-    </iframe>  
-  </div>    
-  <h4>>_ rm _&lt;</h4>
-  <p>
-O “rm” deletar arquivos vazio ou com conteúdo,
-o comando usado para deletar diretórios vazios no Termux é “rmdir”. Se nenhuma opção for oferecida, o rmdir simplesmente deletará o diretório da qual nome é oferecido como destino. já o “rm -rf” removerá qualquer tipo de arquivo que não tenha permissões avançada.
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/PUJi4p88dw4">
-    </iframe> 
-  </div>     
-  <h4>>_ clear _&lt;</h4>
-  <p>
-Se você usar o comando clear no Termux, a tela será limpa e você não poderá ver o que havia na tela anteriormente. Em muitos outros emuladores de terminal esse comando é muito usado.
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/o-vaCGrdXI4">
-    </iframe> 
-  </div>     
-  <h4>>_ nano _&lt;</h4>
-  <p>
-Existem muitos editores de texto diferentes no Termux, e a comunidade é bastante apaixonada por este assunto. No entanto, um editor de texto se destaca dos demais como o mais fácil de usar, especialmente para iniciantes. Esse editor de texto é o Nano.
-  </p>
-  <div class="center">
-    <iframe src="https://www.youtube.com/embed/gthswAuGGQE">
-    </iframe>  
-  </div> 
-  <p>
-Isso é básico que você precisa saber para usar o Termux, mas o Termux é ferramenta bem completa que permitirá a você fazer muitas coisas complexas.
-  </p> 
-  <div class="center">  
-    <a class="botao" target="_blank" href="https://chat.whatsapp.com/HCavGIY9pR35BRZjoLoFGP">WhatsApp</a>
-    <a class="botao" target="_blank" href="https://t.me/Clownters">Telegram</a>
-    <a class="botao" target="_blank" href="https://youtube.com/c/CLOWNTERS1">YouTube</a><br>
-  </div>
-  <br>       
 </body>
 </html>
