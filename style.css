@@ -105,6 +105,9 @@
       h2 {
         font-size: 1.3em;
       }
+      h1, h2, p {
+        padding-right: 15px;
+      }
     }
     @media screen and (max-width: 480px) {
       h1 {
@@ -112,5 +115,8 @@
       }
       h2 {
         font-size: 0.7em;
+      }
+      h1, h2, p {
+        padding-right: 15px;
       }
     }
