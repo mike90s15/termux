@@ -30,6 +30,7 @@
       flex: 1;
       padding: 12px;
       text-align: left;
+      margin-left: 0px;
     }
     .image-container {
       flex: 1;
@@ -106,7 +107,13 @@
         font-size: 1.3em;
       }
       h1, h2, p {
-        padding-right: 15px;
+        padding-right: 20px;
+      }
+      div.image-container {
+        margin-right: 20px;
+      }
+      .button {
+        padding: 10px 30px;
       }
     }
     @media screen and (max-width: 480px) {
@@ -116,7 +123,10 @@
       h2 {
         font-size: 0.7em;
       }
-      h1, h2, p {
-        padding-right: 15px;
+      p {
+        font-size: small;
+      }
+      .button {
+        padding: 5px 25px;
       }
     }
